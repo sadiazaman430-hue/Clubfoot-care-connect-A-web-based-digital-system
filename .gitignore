@@ -1,0 +1,45 @@
+# Composer dependencies
+/vendor/
+/composer.lock
+
+# PHPStan / Psalm
+/phpstan.cache
+/.phpunit.result.cache
+/coverage/
+
+# Environment files
+.env
+.env.*
+!.env.example
+
+# Logs
+*.log
+/logs/
+/storage/logs/
+
+# Cache / compiled files
+/cache/
+/tmp/
+/temp/
+/.php-cs-fixer.cache
+/.idea/
+.vscode/
+*.swp
+*.swo
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Build artifacts
+/build/
+/dist/
+
+# PHPUnit
+/phpunit.xml
+/.phpunit.cache/
+
+# Optional: if using WordPress or Laravel-style generated files
+/public/storage
+/public/hot
+/storage/*.key
